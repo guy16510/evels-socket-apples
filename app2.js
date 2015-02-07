@@ -329,7 +329,7 @@ MongoClient.connect("mongodb://eveleensung:applestoapples@ds053130.mongolab.com:
 
 /*
 Here is where I initialized the Restful Server at port 7000.. For example to create a card:
-POST to http://localhost/setCard/aUserName/aCardValue/dirtyOrClean/whatTimeIsIt
+POST to http://localhost:7000/setCard/aUserName/aCardValue/dirtyOrClean/whatTimeIsIt
 This post will then generate the card in the backend of MongoDB.
 */
 
